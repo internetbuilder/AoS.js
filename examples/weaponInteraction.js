@@ -1,4 +1,4 @@
-const AoS = require("../src");
+const AoS = require("aos.js");
 let client = new AoS.Client({name: "Gunman"});
 
 client.on("StateData", (fields) => {

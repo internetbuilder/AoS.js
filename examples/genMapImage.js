@@ -1,4 +1,4 @@
-const AoS = require("../src");
+const AoS = require("aos.js");
 const {createCanvas} = require("canvas");
 const fs = require("fs");
 

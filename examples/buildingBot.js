@@ -1,6 +1,6 @@
 const {loadImage,createCanvas} = require("canvas");
 
-const AoS = require("../src");
+const AoS = require("aos.js");
 const OrientationData = AoS.Packets.OrientationData;
 let client = new AoS.Client({
 	name: "HentaiBuilder"
